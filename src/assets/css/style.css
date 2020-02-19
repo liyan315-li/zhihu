@@ -1,0 +1,101 @@
+*{margin: 0;padding: 0;}
+/* 首页 */
+
+/* 头部 */
+/* .nav{padding: 1rem;margin-bottom: 0.5em;}
+/* .nav{padding: 3rem 1.5rem 1.5rem;position: relative;;position: fixed;top:10;z-index: 999;width:91%;height:1rem;background-color: #fff;} */
+/* .nav,.nav_left{display: flex;justify-content:space-between;align-items:center}
+.sub_left{text-align: center;}
+.sub_right{font-size: 1.4rem;border-left: 0.1rem solid #ccc;padding: 0.5rem 0 0.5rem 1rem;margin-left: 1rem;} */ */
+
+.header{
+    display: flex;
+    flex-direction: row;
+    padding:10px 0;
+    position: fixed;
+    top: -12.5px;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    z-index: 1000;
+ }
+ .header .date{
+     flex-grow: 1;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     border-right: 1px solid #000;
+ }
+ .header .date .day{
+     font-weight: bold;
+ }
+ .header .hello{
+     flex-grow: 4;
+     font-weight: bold;
+     font-size: 24px;
+     display: flex;
+     align-items: center;
+     text-indent: 0.5em;
+ }
+ .header .userImg{
+     flex-grow: 1;
+     display: flex;
+     align-items: center;
+ }
+ .header .userImg img{
+     border-radius:50%;
+     width: 30px;
+     height: 30px;
+ }
+
+
+/* 轮播图 */
+.banner a{color: #fff;}
+.banner p{width:95%;position:absolute;bottom:1.4rem;color: #fff;text-align: left;margin-left:0.8rem;}
+
+/* 轮播字 */
+.swiperText a{display:flex;justify-content: space-between;margin-top: 1.2rem;padding: 0 10px 15px;color: #333;font-size: 1rem;}
+.swiperText a p{margin-top: 0.4rem;}
+.swiperText p span{color: #999;font-size: 0.8rem;}
+.swiperText a img{width: 5.5rem;height:5.5rem;border-radius: 0.2rem;}
+
+/* 文章详情 */
+.details{position: relative;width: 100%;}
+.detText{width:95%;position:absolute;bottom:2rem;color: #fff;text-align: left;margin-left:0.8rem;}
+.text{padding: 0 1rem;margin-top:1.4rem}
+.text p{line-height: 1.6rem;}
+.text img{width: 100%;}
+.text .avatar{width: 40px;}
+
+
+/* 评论 */
+.header{display:flex;justify-content: space-between;margin-top:0.8rem;border-bottom:0.8px solid #E3E3E3;margin-bottom: 3rem;padding-bottom: 0.5rem;}
+.user{margin-top: 2rem;}
+.subUser{display:flex;justify-content: space-between;margin: 1rem 0;border-bottom:0.8px solid #E3E3E3;padding:0 1rem 0.8rem;}
+.user h3{font-weight: normal;display:flex;justify-content: space-between;}
+.userLeft img{border-radius: 5rem;}
+.userRight{margin-left: 0.6rem;}
+.userRight .comment{font-size: 0.96rem;color: #333;line-height: 1.6rem;margin-top: 0.4rem;}
+.subCom{display:flex;justify-content: space-between;align-items: center;font-size: 0.96rem;color: #999;margin-top: 1rem;}
+.comRight{display:flex;justify-content: space-between;}
+
+
+/* 我的 */
+.center{text-align: center;line-height: 2.5rem;}
+.center h2{font-weight: normal;}
+.center div{font-size: 0.9rem;color:#999;}
+.center .img{margin-top: 1rem;}
+.center img{width:60px;}
+.center a{color:#4D7C90;}
+.bot{display: flex;align-items: center;justify-content: center;margin-top: 26rem;}
+.subBot{text-align: center;}
+
+
+
+
+
+
+
+
+
